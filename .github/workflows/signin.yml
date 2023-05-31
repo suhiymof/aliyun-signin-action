@@ -17,3 +17,4 @@ jobs:
           PUSH_TYPES: 'TELEGRAM'
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          DO_NOT_REWARD: 'true'
